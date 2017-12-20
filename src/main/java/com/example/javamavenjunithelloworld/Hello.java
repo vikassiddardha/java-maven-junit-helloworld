@@ -8,6 +8,7 @@ import java.io.PrintStream;
 public class Hello {
 
     static final String HELLO = "Hello!";
+     static final String BYE = "Hello!";
     public static final int MAXIMUM_AMOUNT_OF_TIMES = 20;
     private short times = 1;
 
@@ -33,6 +34,17 @@ public class Hello {
     public void sayHello(PrintStream printer) {
         for (short i = 0; i < times; i++) {
             printer.println(HELLO);
+        }
+    }
+    
+    /**
+     * Say "Bye!".
+     *
+     * @param printer PrintStream to write output to.
+     */
+    public void sayBye(PrintStream printer) {
+        for (short i = 0; i < times; i++) {
+            printer.println(BYE);
         }
     }
 
