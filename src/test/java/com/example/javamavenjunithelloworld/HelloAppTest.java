@@ -39,7 +39,7 @@ public class HelloAppTest {
     }
     
      @Test
-    public void testWrongArgument() {
+    public void testWrongArgument2() {
         PowerMockito.mockStatic(System.class);
 
         String[] args = {"bike"};
