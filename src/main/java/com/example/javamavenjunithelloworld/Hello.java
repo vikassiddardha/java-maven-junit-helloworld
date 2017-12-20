@@ -35,5 +35,16 @@ public class Hello {
             printer.println(HELLO);
         }
     }
+    
+    /**
+     * Say "Bye!".
+     *
+     * @param printer PrintStream to write output to.
+     */
+    public void sayBye(PrintStream printer) {
+        for (short i = 0; i < times; i++) {
+            printer.println(BYE);
+        }
+    }
 
 }
