@@ -72,7 +72,7 @@ public class HelloAppTest {
     @Test
     public void testDefaultArgument() {
         // Passing no arguments should work.
-        String[] args = {1};
+        String[] args = {};
         HelloApp.main(args);
     }
 
